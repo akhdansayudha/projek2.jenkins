@@ -5,7 +5,7 @@ pipeline {
     IMAGE_NAME = 'ahdann/simple-app'
     REGISTRY = 'https://index.docker.io/v1/'
   # ubah 'dockerhub-credentials' dengan credential yang sudah kamu buat 
-    REGISTRY_CREDENTIALS = 'dckr_pat_xupRySz4XjeXo7ei8Ug_uqMCKl8'
+    REGISTRY_CREDENTIALS = 'dockerhub-credential'
   }
   stages {
     stage('Checkout') {
